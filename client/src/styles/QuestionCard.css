@@ -1,0 +1,73 @@
+.question-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #fff;
+    position: relative;
+  }
+  
+  .drag-handle {
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    cursor: grab;
+  }
+  
+  .question-input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .rich-controls {
+    display: flex;
+    gap: 6px;
+  }
+  
+  .type-selector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 1rem;
+    border-top: 1px solid #ccc;
+    padding-top: 0.5rem;
+  }
+  
+  .divider {
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    margin: 5px 0;
+  }
+  
+  .options {
+    margin-top: 1rem;
+  }
+  
+  .option-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-actions {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .more-options {
+    margin-top: 1rem;
+    background: #f9f9f9;
+    padding: 0.5rem;
+    border-radius: 8px;
+  }
+  
+  .separator {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
